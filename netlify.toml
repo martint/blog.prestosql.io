@@ -2,6 +2,9 @@
 command = "jekyll build && mkdir public && mv _site public/blog"
 publish = "public"
 
+[context.production.environment]
+JEKYLL_ENV = "production"
+
 [[redirects]]
 from = "/"
 to = "/blog/"
