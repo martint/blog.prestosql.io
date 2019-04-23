@@ -1,3 +1,7 @@
 [build]
 command = "jekyll build && mkdir public && mv _site public/blog"
 publish = "public"
+
+[[redirects]]
+from = "/"
+to = "/blog/"
