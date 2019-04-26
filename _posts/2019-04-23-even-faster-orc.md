@@ -226,8 +226,8 @@ There are a number of reasons you may get a larger or smaller win:
 * The compression matters: In our tests we used zlib, which is the most expensive
   compression supported by ORC. Compression algorithms that use less CPU (e.g.,
   Zstd, LZ4, or Snappy) will generally see larger relative improvements.
-* This improvement is only in [Presto 308+](https://prestosql.io/download.html),
+* This improvement is only in [Presto 309+](https://prestosql.io/download.html),
   so if you are using an earlier version you will need to upgrade. Also, if you are
-  still using Facebook’s version of Presto, you can either upgrade to Presto 308+ or
+  still using Facebook’s version of Presto, you can either upgrade to Presto 309+ or
   wait to see if they backport it.
 
